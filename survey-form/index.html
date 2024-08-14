@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <form id="survey-form" method="GET">
+        <h1 id="title">freeCodeCamp Form</h1>
+        <p id="description">This is an example form with CSS</p>
+
+        <label for="name" id="name-label">Name</label>
+        <input id="name" type="text" placeholder="Name" required />
+
+        <label for="email" id="email-label">Email</label>
+        <input id="email" type="email" placeholder="Email" required />
+
+        <label for="number" id="number-label">Age</label>
+        <input id="number" type="number" min="0" max="120" placeholder="Age" required />
+
+        <label for="dropdown" id="sex-label">Sex</label>
+        <select id="dropdown">
+            <option value="F">F</option>
+            <option value="M">M</option>
+        </select>
+
+        <label for="like" id="like-label">Do you like ReactJS?</label>
+        <input id="number" name="like" type="radio" value="Yes" />Yes
+        <input id="number" name="like" type="radio" value="No" />No
+
+        <label id="like-label"> What technologies do you know?</label>
+        <input id="number" name="tech" type="checkbox" value="C#" />C#
+        <input id="number" name="tech" type="checkbox" value="JavaScript" />JavaScript
+        <input id="number" name="tech" type="checkbox" value="Git" />GIT
+
+        <label for="comments">Comments:</label>
+        <textarea id="comments" placeholder="Comments...">
+        </textarea>
+
+        <button id="submit" type="submit">
+            Submit
+        </button>
+    </form>
+</body>
+
+</html>
